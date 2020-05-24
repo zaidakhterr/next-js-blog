@@ -1,8 +1,12 @@
+import Head from "next/head";
 import Link from "next/link";
 
 const firstPost = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>First Post</title>
+      </Head>
       <h1>First Post</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor exercitationem maxime, consectetur laborum quos
@@ -11,7 +15,7 @@ const firstPost = () => {
       <Link href="/">
         <a>Back to home</a>
       </Link>
-    </div>
+    </>
   );
 };
 
