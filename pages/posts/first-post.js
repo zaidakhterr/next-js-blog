@@ -4,7 +4,10 @@ import Layout from "../../components/layout";
 
 const firstPost = () => {
   return (
-    <Layout title="First Post">
+    <Layout>
+      <Head>
+        <title>First Post</title>
+      </Head>
       <h1>First Post</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor exercitationem maxime, consectetur laborum quos
